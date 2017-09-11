@@ -1,0 +1,191 @@
+.tabs .indicator {
+    background-color: orange;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+body {
+    padding-top: 100px;
+    /*    background-color: #f2f2f2; */
+}
+
+.ic-menu {
+    margin: 0 auto;
+    width: 35px;
+    height: 35px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ic-bolos {
+    background-image: url(../img/icon-menu/cake.png);
+}
+
+#ic-pizzas {
+    background-image: url(../img/icon-menu/pizza-4.png);
+}
+
+#ic-salgados {
+    background-image: url(../img/icon-menu/hamburguer-1.png);
+}
+
+#ic-bebidas {
+    background-image: url(../img/icon-menu/can.png);
+}
+
+.ic-add {
+    background-image: url(../img/icon-menu/add.png);
+    border-radius: 50%;
+}
+
+.ic-delete {
+    background-image: url(../img/icon-menu/delete.png);
+    border-radius: 50%;
+}
+
+#ic-ingredients {
+    background-image: url(../img/icon-menu/ingredients.png);
+    background-position: left;
+    display: inline-block;
+}
+
+.ic-facebook {
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/facebook.png);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+
+.ic-google {
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/google.png);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+
+.ic-controls {
+    margin: 10px;
+}
+
+.titulo-submenu {
+    font-family: 'Galada', cursive;
+}
+
+.item {
+    background-color: rgba(0, 0, 0, 0.85);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 10px;
+    height: 100%;
+}
+
+#preco-produto {
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+#nome-produto {
+    font-family: 'Indie Flower', cursive;
+    color: #ff6d00;
+    padding-bottom: 4%;
+    display: inline-block;
+}
+
+.chip-nome {
+    display: inline-block;
+    height: 32px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 32px;
+    padding: 0 12px;
+    border-radius: 16px;
+    background-color: black;
+    color: #ff6d00;
+    opacity: 0.8;
+}
+
+.div-container {
+    background-color: white;
+    display: inline-block;
+    padding: 2%;
+    width: 35%;
+    /*border-radius: 15px;*/
+    border-right-style: solid;
+    border-color: orange;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+}
+
+.card-reveal {
+    height: 80%;
+}
+
+.op-login {
+  text-transform: uppercase;
+}
+.tabs {
+  background-color: transparent;
+}
+.div-login {
+  /*padding: 1%;*/
+  /*align-self: baseline;*/
+  position: absolute;
+  bottom: 0px;
+  width: inherit;
+  right: 10px;
+  left: 10px;
+  bottom: 10px;
+  border-radius: 5px;
+  background-color: white;
+  /*background-color: rgba(0, 0, 0, 0.47);*/
+  /*background-color: rgba(235, 148, 113, 0.85);*/
+  /*opacity: 0.8;*/
+}
+.div-container-login {
+}
+.tabs .indicator {
+  background-color: orange;
+  top: 0;
+  width: 10%;
+  margin: 0 auto;
+  height: 4px;
+}
+
+.fg-password {
+  padding-left: 10.50px;
+}
+
+.btn-login {
+  margin-bottom: 14px;
+}
+hr {
+  border-color: white;
+  background-color: white;
+}
+
+.signup-form .row {
+  margin: 0;
+}
+
+.tela-login {
+  background-image: url(../img/background_login.png);
+  background-size: contain;
+  background-position: center;
+  padding: 0;
+}
+
+.btn-facebook {
+  background-color: #3975b3;
+}

@@ -1,0 +1,32 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/cordova/lib/build.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/plugins/cordova-plugin-sqlite-2/dist/sqlite-plugin.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/android/assets/www/plugins/cordova-plugin-sqlite-2/dist/sqlite-plugin.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/android/assets/www/cordova-js-src/plugin/android/app.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/android/platform_www/plugins/cordova-plugin-sqlite-2/dist/sqlite-plugin.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/android/platform_www/cordova-js-src/plugin/android/app.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/android/build/intermediates/assets/debug/www/plugins/cordova-plugin-sqlite-2/dist/sqlite-plugin.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/android/build/intermediates/assets/debug/www/cordova-js-src/plugin/android/app.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/android/cordova/lib/builders/GenericBuilder.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/android/cordova/lib/builders/builders.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/android/cordova/lib/builders/AntBuilder.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/android/cordova/lib/builders/GradleBuilder.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/platform_www/plugins/cordova-plugin-sqlite-2/dist/sqlite-plugin.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/www/plugins/cordova-plugin-sqlite-2/dist/sqlite-plugin.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/cordova/lib/check_reqs.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/cordova/lib/clean.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/www/cordova-js-src/confighelper.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/www/cordova-js-src/exec.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/www/cordova-js-src/platform.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/www/js/banco.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/www/js/materialize.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/www/js/index.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/www/js/materialize.min.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/platform_www/cordova-js-src/confighelper.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/platform_www/cordova-js-src/exec.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/platform_www/cordova-js-src/platform.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/platforms/browser/js/index.js",
+        "/home/stark/Documentos/alura-pratica/cordova/app-delivery/www/js/index.js"
+    ]
+}

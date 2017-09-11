@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *;
+                   style-src 'self' https://fonts.googleapis.com 'unsafe-inline' 'unsafe-eval';
+                   script-src 'self' https://code.jquery.com 'unsafe-inline' 'unsafe-eval';">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>App Delivery</title>
+</head>
+
+<body class="tela-login">
+    <h3 class="titulo-submenu center white-text">Lanchonete</h3>
+
+    <div class="div-container-login">
+
+        <ul class="tabs">
+            <li class="tab op-login"><a href="#login" class="red-text">Login</a></li>
+            <li class="tab op-login"><a href="#singup" class="red-text">Signup</a></li>
+        </ul>
+
+        <div id="login">
+            <form class="login-form">
+
+                <div class="row margin">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="username" type="text">
+                        <label for="username" class="center-align">Username</label>
+                    </div>
+                </div>
+                <div class="row margin">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">lock</i>
+                        <input id="password" type="password">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <div class="input-field fg-password">
+                    <p class="left-align medium-small "><a href="page-forgot-password.html" class="black-text">Forgot password ?</a></p>
+                </div>
+                <div class="row">
+                    <div class="input-field btn-login col s12">
+                        <a href="index.html" class="btn waves-effect waves-light col s12">Login</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div id="singup">
+            <form class="signup-form">
+
+                <div class="row ">
+                    <div class="input-field col s12">
+                        <input id="nome" type="text" placeholder="Digite seu nome">
+                        <label for="nome" class="center-align text-black">Nome</label>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" placeholder="Digite seu email">
+                        <label for="email" class="center-align">Email</label>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" placeholder="Digite sua senha">
+                        <label for="password">Senha</label>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="input-field col s12">
+                        <input id="confirm-password" type="password" placeholder="Repita sua senha">
+                        <label for="confirm-password">Confirme</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field btn-login col s12">
+                        <a href="index.html" class="btn waves-effect waves-light col s12">SIGN UP</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+</body>
+
+</html>

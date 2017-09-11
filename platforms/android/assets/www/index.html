@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *;
+                   style-src 'self' https://fonts.googleapis.com 'unsafe-inline' 'unsafe-eval';
+                   script-src 'self' https://code.jquery.com 'unsafe-inline' 'unsafe-eval';">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>App Delivery</title>
+</head>
+
+<body class="yellow ">
+    <nav>
+        <div class="nav-wrapper red">
+            <a href="#" class="brand-logo center"><h4 class="titulo-submenu">Lanchonete</h4></a>
+        </div>
+        <ul class="tabs red">
+
+            <li class="tab">
+                <a href="#bolos" class="white-text waves-effect waves-light">
+                    <div id="ic-bolos" class="ic-menu"></div>
+                </a>
+            </li>
+            <li class="tab">
+                <a href="#pizzas" class="white-text waves-effect waves-light ic">
+                    <div id="ic-pizzas" class="ic-menu"></div>
+                </a>
+            </li>
+            <li class="tab">
+                <a href="#salgados" class="white-text waves-effect waves-light ic">
+                    <div id="ic-salgados" class="ic-menu"></div>
+                </a>
+            </li>
+            <li class="tab">
+                <a href="#bebidas" class="white-text waves-effect waves-light ic">
+                    <div id="ic-bebidas" class="ic-menu"></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="section" id="bolos">
+        <h4 class="container brown-text center titulo-submenu">Bolos</h4>
+        <ul id="listaBolo"></ul>
+    </div>
+
+    <div class="section" id="salgados">
+        <h4 class="container brown-text center titulo-submenu">Hamburguer's</h4>
+        <ul id="listaSalgado"></ul>
+    </div>
+    <div class="section" id="pizzas">
+        <h4 class="container brown-text center titulo-submenu">Pizzas</h4>
+        <ul id="listaPizza"></ul>
+    </div>
+    <div class="section" id="bebidas">
+        <h4 class="container brown-text center titulo-submenu">Bebidas</h4>
+        <ul id="listaBebida"></ul>
+    </div>
+
+    <div class="fixed-action-btn">
+        <a href="#confirmacao" class="confirmar btn-floating btn-large waves-effect waves-light right red modal-trigger"><i class="material-icons">add</i></a>
+    </div>
+
+    <div class="modal modal-fixed-footer" id="confirmacao">
+        <div class="modal-content">
+            <h5>Resumo do pedido</h5>
+            <input type="text" class="validate" placeholder="Seu nome" id="nome-cliente">
+            <input type="text" class="validate" placeholder="Endereco" id="endereco-cliente"/>
+            <input type="tel" class="validate" placeholder="Telefone/Celular" id="celular-cliente"/>
+            <blockquote id="resumo"></blockquote>
+            <textarea placeholder="Observação" id=observacao-cliente></textarea>
+        </div>
+
+        <div class="modal-footer">
+            <button class="btn deep-orange waves-effect waves-light modal-close
+        acao-finalizar">
+                Pedir
+            </button>
+            <button class="acao-limpar btn-flat waves-effect waves-red modal-close">
+                Cancelar
+            </button>
+        </div>
+    </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/banco.js"></script>
+</body>
+
+</html>
